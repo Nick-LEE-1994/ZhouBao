@@ -57,4 +57,5 @@ public class UserController {
     public ZBResponse<Boolean> createPermission(@PathVariable("permission") String permission){
         return userService.createPermission(permission);
     }
+
 }
